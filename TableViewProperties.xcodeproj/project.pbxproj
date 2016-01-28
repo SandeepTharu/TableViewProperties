@@ -14,6 +14,8 @@
 		713956DC1C59EBBC00346073 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713956DA1C59EBBC00346073 /* LaunchScreen.storyboard */; };
 		713956E71C59EBBC00346073 /* TableViewPropertiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713956E61C59EBBC00346073 /* TableViewPropertiesTests.swift */; };
 		713956F21C59EBBC00346073 /* TableViewPropertiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713956F11C59EBBC00346073 /* TableViewPropertiesUITests.swift */; };
+		713957011C59EC7100346073 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713956FF1C59EC7100346073 /* TableViewCell.swift */; };
+		713957021C59EC7100346073 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 713957001C59EC7100346073 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		713956ED1C59EBBC00346073 /* TableViewPropertiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewPropertiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		713956F11C59EBBC00346073 /* TableViewPropertiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewPropertiesUITests.swift; sourceTree = "<group>"; };
 		713956F31C59EBBC00346073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		713956FF1C59EC7100346073 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		713957001C59EC7100346073 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				713956D11C59EBBC00346073 /* AppDelegate.swift */,
 				713956D31C59EBBC00346073 /* ViewController.swift */,
 				713956D51C59EBBC00346073 /* Main.storyboard */,
+				713956FF1C59EC7100346073 /* TableViewCell.swift */,
+				713957001C59EC7100346073 /* TableViewCell.xib */,
 				713956D81C59EBBC00346073 /* Assets.xcassets */,
 				713956DA1C59EBBC00346073 /* LaunchScreen.storyboard */,
 				713956DD1C59EBBC00346073 /* Info.plist */,
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				713956DC1C59EBBC00346073 /* LaunchScreen.storyboard in Resources */,
+				713957021C59EC7100346073 /* TableViewCell.xib in Resources */,
 				713956D91C59EBBC00346073 /* Assets.xcassets in Resources */,
 				713956D71C59EBBC00346073 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713957011C59EC7100346073 /* TableViewCell.swift in Sources */,
 				713956D41C59EBBC00346073 /* ViewController.swift in Sources */,
 				713956D21C59EBBC00346073 /* AppDelegate.swift in Sources */,
 			);
