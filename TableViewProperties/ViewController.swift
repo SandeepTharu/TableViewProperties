@@ -19,7 +19,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        TableView.registerNib(UINib(nibName: "TableViewCell", bundle:nil), forCellReuseIdentifier: "CustomView")
+        TableView.registerNib(UINib(nibName: "TableViewCell", bundle:nil), forCellReuseIdentifier: "Cell")
     }
 
     override func didReceiveMemoryWarning() {
